@@ -1,0 +1,17 @@
+create database college;
+use college;
+create table student(regno int primary key, stu_name varchar(30),dept varchar(20),city varchar(20));
+insert into student values(20112,"ram","cse","chennai");
+insert into student values(22111,"shiva","cse","kanchipuram");
+insert into student values(31132,"deepa","ece","chennai");
+insert into student values(43211,"meena","eee","trichy");
+select * from student;
+select count(*) from student;
+select count(dept) from student;
+select distinct(regno) from student;
+select distinct(city) from student;
+select sum(regno) from student;
+update student set dept="cse" where city="chennai";
+select * from student;
+delete from student where regno='22111';
+select * from student;
