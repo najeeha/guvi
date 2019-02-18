@@ -1,0 +1,8 @@
+create database company;
+use company;
+create table employee(id int,name varchar(20),age int,address varchar(20),salarey int);
+insert into employee values(1,"Ramesh",32,"Ahmedabad",2000);
+insert into employee values(2,"Khilan",25,"Delhi",1500);
+insert into employee values(3,"kaushik",23,"Kota",2000);
+insert into employee values(4,"Chaitali",25,"Mumbai",6500);
+insert into employee values(4	Chaitali	25	Mumbai   	6500
