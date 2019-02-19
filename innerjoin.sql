@@ -1,0 +1,15 @@
+create database company;
+use company;
+create table employee(id int,name varchar(20),age int);
+insert into employee values(1,"ramesh",20);
+insert into employee values(2,"ram",15);
+insert into employee values(3,"banu",19);
+insert into employee values(4,"yamni",21);
+select * from  employee;
+create table job(name varchar(20),salary int);
+insert into job values("ramesh",20000);
+insert into job values("ram",30000);
+insert into job values("banu",25000);
+insert into job values("yamni",15000);
+select * from job;
+select emp.name,j.name,j.salary from employee emp,job j where emp.name=j.name;
