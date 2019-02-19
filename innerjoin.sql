@@ -13,3 +13,5 @@ insert into job values("banu",25000);
 insert into job values("yamni",15000);
 select * from job;
 select emp.name,j.name,j.salary from employee emp,job j where emp.name=j.name;
+select emp.name,j.name,j.salary from employee emp left join job j on emp.name=j.name;
+select emp.name,j.name,j.salary from employee emp right join job j on emp.name=j.name;
