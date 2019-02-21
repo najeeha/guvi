@@ -1,0 +1,8 @@
+a=['ram','bala','najeeha']
+b=['kumar','kumar','banu']
+c=a[0]+b[0]
+d=a[1]+b[1]
+e=a[2]+b[2]
+print(c)
+print(d)
+print(e)
